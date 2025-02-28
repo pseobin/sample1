@@ -2,4 +2,7 @@
 html{font-size: 16px; color: #333;}
 a{color: #333; text-decoration: none; display: block;}
 
-head{background: pink;}
+head{background: pink; display: flex; justify-content: space-between; }
+head nav{width: 60%;}
+head nav ul{display: flex; width: 60%; justify-content: space-between;}
+head nav ul li{width: 25%;}
